@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Display section */
+#total {
+    background-color: #e3e5e8;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#total h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+#total h1 {
+    margin: 5px 0 0;
+    font-size: 24px;
+    color: #000;
+}
+
+/* Buttons */
+button {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.2s ease;
+}
+
+/* Operator buttons */
+button.o {
+    background-color: #ff6b6b;
+    color: white;
+    width: 60px;
+    height: 50px;
+}
+
+button.o:hover {
+    background-color: #ff4d4d;
+}
+
+/* Number buttons */
+button.n {
+    background-color: #4caf50;
+    color: white;
+    width: 60px;
+    height: 50px;
+}
+
+button.n:hover {
+    background-color: #45a049;
+}
+
+/* Button container */
+#opr, #num {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#num {
+    margin-top: 10px;
+}
